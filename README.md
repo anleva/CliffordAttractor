@@ -19,14 +19,14 @@ High resolution density plots of such a sequence can be things of beauty, remini
 
 ## Numba  -  Supercharging calculations
 
-[Numba](https://numba.pydata.org/ "Numba") translates Python functions to optimized machine code, in order to drastically quicken calculations, reaching speeds similar to C or Fortran.
-There are three steps when using Numba in python:
+[Numba](https://numba.pydata.org/ "Numba") translates Python functions to optimized machine code, to drastically quicken calculations and reaching speeds similar to C or Fortran.
+There are three simple steps when using Numba in python:
 1. Import just-in-time compilation; `from numba import jit`
 2. Add a decorator to the function, e.g. `@jit(nopython=True)`
 3. Use only supported variable types and functions
 
 ### Numba speed benchmarks
-Numba delivers a 4,300% speed improvement, compared to using `maths` trigonometry functions.
+Numba delivers a 4,300% speed improvement, compared to using `math` trigonometry functions.
 This is a remarkable improvement; to achieve the same performance increase through hardware development would
 take over a decade, if done according to Moore's law (doubling performance every 2 years).
 
